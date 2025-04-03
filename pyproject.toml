@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "opencv"
+version = "0.1.0"
+description = ""
+authors = ["PanBard <antek.bezi@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+opencv-python = "^4.11.0.86"
+requests = "^2.32.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
